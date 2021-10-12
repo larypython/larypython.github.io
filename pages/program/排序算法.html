@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>排序算法 | lary首页</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/lary.png">
+    <meta name="description" content="lary的学习记录">
+    <link rel="preload" href="/assets/css/0.styles.40dda0b7.css" as="style"><link rel="preload" href="/assets/js/app.ce7e7f00.js" as="script"><link rel="preload" href="/assets/js/2.5915ac89.js" as="script"><link rel="preload" href="/assets/js/36.1cdbca8b.js" as="script"><link rel="prefetch" href="/assets/js/10.4970c03e.js"><link rel="prefetch" href="/assets/js/11.01f1136d.js"><link rel="prefetch" href="/assets/js/12.4aee8797.js"><link rel="prefetch" href="/assets/js/13.5d41bf70.js"><link rel="prefetch" href="/assets/js/14.e51ab40b.js"><link rel="prefetch" href="/assets/js/15.30a2107f.js"><link rel="prefetch" href="/assets/js/16.2e4f7c3c.js"><link rel="prefetch" href="/assets/js/17.7d0268c9.js"><link rel="prefetch" href="/assets/js/18.d1fa578c.js"><link rel="prefetch" href="/assets/js/19.866b93fe.js"><link rel="prefetch" href="/assets/js/20.5a33e030.js"><link rel="prefetch" href="/assets/js/21.5225b77b.js"><link rel="prefetch" href="/assets/js/22.b1e74b40.js"><link rel="prefetch" href="/assets/js/23.a470c387.js"><link rel="prefetch" href="/assets/js/24.ed4cea13.js"><link rel="prefetch" href="/assets/js/25.21582346.js"><link rel="prefetch" href="/assets/js/26.a49c3203.js"><link rel="prefetch" href="/assets/js/27.7fbbf536.js"><link rel="prefetch" href="/assets/js/28.79012516.js"><link rel="prefetch" href="/assets/js/29.c2fa3eb4.js"><link rel="prefetch" href="/assets/js/3.c4169460.js"><link rel="prefetch" href="/assets/js/30.54d5add8.js"><link rel="prefetch" href="/assets/js/31.b29ca9b2.js"><link rel="prefetch" href="/assets/js/32.670b5fef.js"><link rel="prefetch" href="/assets/js/33.32dc6337.js"><link rel="prefetch" href="/assets/js/34.a3c3dbba.js"><link rel="prefetch" href="/assets/js/35.15e1a79d.js"><link rel="prefetch" href="/assets/js/37.a7574078.js"><link rel="prefetch" href="/assets/js/38.2fd7d528.js"><link rel="prefetch" href="/assets/js/39.b1613bcf.js"><link rel="prefetch" href="/assets/js/4.5c51361d.js"><link rel="prefetch" href="/assets/js/40.26e6bda4.js"><link rel="prefetch" href="/assets/js/41.a602272e.js"><link rel="prefetch" href="/assets/js/42.17d398cc.js"><link rel="prefetch" href="/assets/js/43.b1802980.js"><link rel="prefetch" href="/assets/js/44.244f2285.js"><link rel="prefetch" href="/assets/js/45.91f6ddf0.js"><link rel="prefetch" href="/assets/js/46.ed673c73.js"><link rel="prefetch" href="/assets/js/47.2f5c618e.js"><link rel="prefetch" href="/assets/js/48.4eb6d356.js"><link rel="prefetch" href="/assets/js/5.6fbee096.js"><link rel="prefetch" href="/assets/js/6.53a673ba.js"><link rel="prefetch" href="/assets/js/7.74de4b71.js"><link rel="prefetch" href="/assets/js/8.f997ffe3.js"><link rel="prefetch" href="/assets/js/9.cc148c80.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.40dda0b7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/lary.png" alt="lary首页" class="logo"> <span class="site-name can-hide">lary首页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python" class="dropdown-title"><span class="title">Python</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/python/Python-01-环境.html" class="nav-link">
+  Python-01-环境
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-02-数据类型.html" class="nav-link">
+  Python-02-数据类型
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-03-文件处理.html" class="nav-link">
+  Python-03-文件处理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-04-Numpy.html" class="nav-link">
+  Python-04-Numpy
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-05-Pandas.html" class="nav-link">
+  Python-05-Pandas
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-06-Matplotlib.html" class="nav-link">
+  Python-06-Matplotlib
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-07-SciPy.html" class="nav-link">
+  Python-07-SciPy
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-08-Pyinstaller.html" class="nav-link">
+  Python-08-Pyinstaller
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-09-Mysql.html" class="nav-link">
+  Python-09-Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-10-Neo4j.html" class="nav-link">
+  Python-10-Neo4j
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-Pycharm.html" class="nav-link">
+  Python-Pycharm
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python代码块.html" class="nav-link">
+  Python代码块
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="机器学习" class="dropdown-title"><span class="title">机器学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/machine_learning/DBSCAN密度聚类算法.html" class="nav-link">
+  DBSCAN密度聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/K-Means聚类算法.html" class="nav-link">
+  K-Means聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/Keras学习笔记.html" class="nav-link">
+  Keras学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/LSTM学习笔记.html" class="nav-link">
+  LSTM学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/sklearn中SVM程序.html" class="nav-link">
+  sklearn中SVM程序
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/层次聚类.html" class="nav-link">
+  层次聚类
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/机器学习.html" class="nav-link">
+  机器学习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/聚类算法.html" class="nav-link">
+  聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/西瓜书学习记录.html" class="nav-link">
+  西瓜书学习记录
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/谱聚类.html" class="nav-link">
+  谱聚类
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编程" class="dropdown-title"><span class="title">编程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/program/c++学习笔记.html" class="nav-link">
+  c++学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Clion&amp;MinGW的使用方法.html" class="nav-link">
+  Clion&amp;MinGW的使用方法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Docker笔记.html" class="nav-link">
+  Docker笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Git学习笔记.html" class="nav-link">
+  Git学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Java学习笔记.html" class="nav-link">
+  Java学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/libsvm学习笔记.html" class="nav-link">
+  libsvm学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Linux学习笔记.html" class="nav-link">
+  Linux学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/MySQL笔记.html" class="nav-link">
+  MySQL笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/NodeJS笔记.html" class="nav-link">
+  NodeJS笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/TCP IP学习笔记.html" class="nav-link">
+  TCP IP学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Ubuntu笔记.html" class="nav-link">
+  Ubuntu笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/力扣题解.html" class="nav-link">
+  力扣题解
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/排序算法.html" class="nav-link">
+  排序算法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="软件" class="dropdown-title"><span class="title">软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/software/VSCode小技巧.html" class="nav-link">
+  VSCode小技巧
+</a></li><li class="dropdown-item"><!----> <a href="/pages/software/VSCode自定义补全.html" class="nav-link">
+  VSCode自定义补全
+</a></li><li class="dropdown-item"><!----> <a href="/pages/software/常用工具软件.html" class="nav-link">
+  常用工具软件
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书心得" class="dropdown-title"><span class="title">读书心得</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/reading/拖延心理学.html" class="nav-link">
+  拖延心理学
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/others/tests.html" class="nav-link">
+  功能演示
+</a></div><div class="nav-item"><a href="/pages/others/aboutme.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/larypython" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python" class="dropdown-title"><span class="title">Python</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/python/Python-01-环境.html" class="nav-link">
+  Python-01-环境
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-02-数据类型.html" class="nav-link">
+  Python-02-数据类型
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-03-文件处理.html" class="nav-link">
+  Python-03-文件处理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-04-Numpy.html" class="nav-link">
+  Python-04-Numpy
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-05-Pandas.html" class="nav-link">
+  Python-05-Pandas
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-06-Matplotlib.html" class="nav-link">
+  Python-06-Matplotlib
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-07-SciPy.html" class="nav-link">
+  Python-07-SciPy
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-08-Pyinstaller.html" class="nav-link">
+  Python-08-Pyinstaller
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-09-Mysql.html" class="nav-link">
+  Python-09-Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-10-Neo4j.html" class="nav-link">
+  Python-10-Neo4j
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python-Pycharm.html" class="nav-link">
+  Python-Pycharm
+</a></li><li class="dropdown-item"><!----> <a href="/pages/python/Python代码块.html" class="nav-link">
+  Python代码块
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="机器学习" class="dropdown-title"><span class="title">机器学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/machine_learning/DBSCAN密度聚类算法.html" class="nav-link">
+  DBSCAN密度聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/K-Means聚类算法.html" class="nav-link">
+  K-Means聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/Keras学习笔记.html" class="nav-link">
+  Keras学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/LSTM学习笔记.html" class="nav-link">
+  LSTM学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/sklearn中SVM程序.html" class="nav-link">
+  sklearn中SVM程序
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/层次聚类.html" class="nav-link">
+  层次聚类
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/机器学习.html" class="nav-link">
+  机器学习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/聚类算法.html" class="nav-link">
+  聚类算法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/西瓜书学习记录.html" class="nav-link">
+  西瓜书学习记录
+</a></li><li class="dropdown-item"><!----> <a href="/pages/machine_learning/谱聚类.html" class="nav-link">
+  谱聚类
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编程" class="dropdown-title"><span class="title">编程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/program/c++学习笔记.html" class="nav-link">
+  c++学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Clion&amp;MinGW的使用方法.html" class="nav-link">
+  Clion&amp;MinGW的使用方法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Docker笔记.html" class="nav-link">
+  Docker笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Git学习笔记.html" class="nav-link">
+  Git学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Java学习笔记.html" class="nav-link">
+  Java学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/libsvm学习笔记.html" class="nav-link">
+  libsvm学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Linux学习笔记.html" class="nav-link">
+  Linux学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/MySQL笔记.html" class="nav-link">
+  MySQL笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/NodeJS笔记.html" class="nav-link">
+  NodeJS笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/TCP IP学习笔记.html" class="nav-link">
+  TCP IP学习笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/Ubuntu笔记.html" class="nav-link">
+  Ubuntu笔记
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/力扣题解.html" class="nav-link">
+  力扣题解
+</a></li><li class="dropdown-item"><!----> <a href="/pages/program/排序算法.html" class="nav-link">
+  排序算法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="软件" class="dropdown-title"><span class="title">软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/software/VSCode小技巧.html" class="nav-link">
+  VSCode小技巧
+</a></li><li class="dropdown-item"><!----> <a href="/pages/software/VSCode自定义补全.html" class="nav-link">
+  VSCode自定义补全
+</a></li><li class="dropdown-item"><!----> <a href="/pages/software/常用工具软件.html" class="nav-link">
+  常用工具软件
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书心得" class="dropdown-title"><span class="title">读书心得</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/reading/拖延心理学.html" class="nav-link">
+  拖延心理学
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/others/tests.html" class="nav-link">
+  功能演示
+</a></div><div class="nav-item"><a href="/pages/others/aboutme.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/larypython" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/pages/program/c++学习笔记.html" class="sidebar-link">c++学习笔记</a></li><li><a href="/pages/program/Clion&amp;MinGW的使用方法.html" class="sidebar-link">Clion&amp;MinGW的使用方法</a></li><li><a href="/pages/program/Docker笔记.html" class="sidebar-link">Docker</a></li><li><a href="/pages/program/Git学习笔记.html" class="sidebar-link">Git 学习笔记</a></li><li><a href="/pages/program/Java学习笔记.html" class="sidebar-link">Java笔记</a></li><li><a href="/pages/program/libsvm学习笔记.html" class="sidebar-link">libsvm学习笔记</a></li><li><a href="/pages/program/Linux学习笔记.html" class="sidebar-link">Linux学习笔记</a></li><li><a href="/pages/program/MySQL笔记.html" class="sidebar-link">MySQL笔记</a></li><li><a href="/pages/program/NodeJS笔记.html" class="sidebar-link">NodeJS 笔记</a></li><li><a href="/pages/program/TCP IP学习笔记.html" class="sidebar-link">TCP/IP笔记</a></li><li><a href="/pages/program/Ubuntu笔记.html" class="sidebar-link">Ubuntu笔记</a></li><li><a href="/pages/program/力扣题解.html" class="sidebar-link">力扣题解</a></li><li><a href="/pages/program/排序算法.html" class="active sidebar-link">排序算法</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="排序算法"><a href="#排序算法" class="header-anchor">#</a> 排序算法</h1> <table><thead><tr><th>算法</th> <th>最优时间复杂度</th> <th>平均时间复杂度</th> <th>最差时间复杂度</th> <th>最坏空间复杂度</th></tr></thead> <tbody><tr><td>快速排序</td> <td>O(n log n)</td> <td>O(n log n)</td> <td>O(n²)</td> <td>不定</td></tr> <tr><td>冒泡排序</td> <td>O(n)</td> <td>O(n²)</td> <td>O(n²)</td> <td>O(n)</td></tr> <tr><td>归并排序</td> <td>O(n log n)</td> <td>O(n log n)</td> <td>O(n log n)</td> <td>O(n)</td></tr></tbody></table> <p>快速排序(python)</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">quick_sort</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> nums
+
+    left <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    right <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    base <span class="token operator">=</span> nums<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> x <span class="token keyword">in</span> nums<span class="token punctuation">:</span>
+        <span class="token keyword">if</span> x <span class="token operator">&lt;</span> base<span class="token punctuation">:</span>
+            left<span class="token punctuation">.</span>append<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            right<span class="token punctuation">.</span>append<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> quick_sort<span class="token punctuation">(</span>left<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token punctuation">[</span>base<span class="token punctuation">]</span> <span class="token operator">+</span> quick_sort<span class="token punctuation">(</span>right<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>冒泡排序(python)</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">bubble_sort</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">if</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&gt;</span> nums<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+                nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> nums<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    <span class="token keyword">return</span> nums
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pages/program/力扣题解.html" class="prev">
+        力扣题解
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ce7e7f00.js" defer></script><script src="/assets/js/2.5915ac89.js" defer></script><script src="/assets/js/36.1cdbca8b.js" defer></script>
+  </body>
+</html>
